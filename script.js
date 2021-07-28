@@ -1,7 +1,3 @@
-const h4 = document.createElement('h4');
-h4.textContent = "(7/28/2021)"; 
-document.querySelector('body').appendChild(h4); 
-
 const dodger = document.getElementById("dodger"); 
 
 document.addEventListener("keydown", function(e) {
@@ -18,8 +14,6 @@ function moveDodgerLeft() {
     }
   } 
 
-
-
   document.addEventListener("keydown", function(e) {
     if (e.key === "ArrowRight") {
       moveDodgerRight();
@@ -29,7 +23,7 @@ function moveDodgerRight() {
     const rightNumbers = dodger.style.left.replace("px", "");
     const right = parseInt(rightNumbers, 10);
   
-    if (right < 1550) {
+    if (right < 1800) {
       dodger.style.left = `${right + 100}px`;
     }
   } 
