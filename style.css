@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(red, yellow);
+  } 
+
+  h1 {
+      color: rgb(0, 110, 255);
+  }
+
+  h2 {
+      color:rgb(147, 64, 224);
+  }
+
+  h3 {
+      color:rgb(133, 18, 18);
+  }
